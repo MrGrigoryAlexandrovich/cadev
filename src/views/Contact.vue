@@ -145,20 +145,20 @@ export default {
       body: "",
             icons: [
         {
-          href: "https://github.com/MrGrigoryAlexandrovich",
-          icon: "fab fa-github",
-        },
-        {
-          href: "https://www.linkedin.com/in/ahmed-cvr%C4%8Dak-1a68a6201/",
-          icon: "fab fa-linkedin-in",
-        },
-        {
           href: "https://web.facebook.com/cvrcak.ahmed/",
           icon: "fab fa-facebook-f",
         },
         {
           href: "https://www.instagram.com/_mr.assertive_/",
           icon: "fab fa-instagram",
+        },
+                {
+          href: "https://github.com/MrGrigoryAlexandrovich",
+          icon: "fab fa-github",
+        },
+        {
+          href: "https://www.linkedin.com/in/ahmed-cvr%C4%8Dak-1a68a6201/",
+          icon: "fab fa-linkedin-in",
         },
       ],
     };

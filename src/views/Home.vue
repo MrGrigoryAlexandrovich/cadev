@@ -83,15 +83,7 @@ export default {
   },
   data() {
     return {
-      icons: [
-        {
-          href: "https://github.com/MrGrigoryAlexandrovich",
-          icon: "fab fa-github",
-        },
-        {
-          href: "https://www.linkedin.com/in/ahmed-cvr%C4%8Dak-1a68a6201/",
-          icon: "fab fa-linkedin-in",
-        },
+                  icons: [
         {
           href: "https://web.facebook.com/cvrcak.ahmed/",
           icon: "fab fa-facebook-f",
@@ -100,13 +92,14 @@ export default {
           href: "https://www.instagram.com/_mr.assertive_/",
           icon: "fab fa-instagram",
         },
-      ],
-      text1: [
-        "Full Stack Junior Developer",
-        "Front-End Developer",
-        "Back-End Developer",
-        "Web Developer",
-        "Web Designer",
+                {
+          href: "https://github.com/MrGrigoryAlexandrovich",
+          icon: "fab fa-github",
+        },
+        {
+          href: "https://www.linkedin.com/in/ahmed-cvr%C4%8Dak-1a68a6201/",
+          icon: "fab fa-linkedin-in",
+        },
       ],
       sliderLine: 0,
       hSize: 0,
