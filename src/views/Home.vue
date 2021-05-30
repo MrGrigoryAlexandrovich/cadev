@@ -18,7 +18,7 @@
             </h3>
             <div>
               <p>
-                Hello! I’m      <span class="blue--text">Ahmed Cvrčak</span> . I'm a Full Stack Junir Developer who
+                Hello! I’m      <span class="blue--text">Ahmed Cvrčak</span> . I'm a Full Stack Junior Developer who
                 is passionate about
                 <span
                   class="blue--text font-weight-bold"
@@ -203,5 +203,24 @@ color:royalblue;
   display: inline-block;
   background-color: #e91e63;
 }
+
+
+@media only screen and (max-width: 600px) {
+#logo {
+  height: 35%;
+  width: 35%;
+  margin-right: 15px;
+  margin-left: 30px;
+}
+.float-left {
+  height: 30%;
+  width: 30%;
+}
+.float-right {
+  height: 30%;
+  width: 30%;
+}
+}
+
 </style>
 
