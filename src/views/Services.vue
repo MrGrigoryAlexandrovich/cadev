@@ -178,6 +178,11 @@ export default {
           src: "https://i.imgur.com/DMPzorz.png",
           href: "https://www.photoshop.com/en",
         },
+          {
+          name: "Sony Vegas",
+          src: "https://i.imgur.com/S7PoSNL.png",
+          href: "https://www.vegascreativesoftware.com/ca/",
+        },
       ],
       services: [
         {
