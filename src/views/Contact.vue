@@ -77,6 +77,21 @@
           <v-btn @click="clear">clear</v-btn>
   </form>
       </v-flex>
+                    <v-card-actions class="justify-center">
+      <v-btn
+        v-for="icon in icons"
+        :key="icon.icon"
+        small
+        fab
+        dark
+        outline
+        color="blue"
+        :href="icon.href"
+        target="_blank"
+      >
+        <v-icon dark>{{ icon.icon }}</v-icon>
+      </v-btn>
+    </v-card-actions>
     </v-layout>
   </v-container>
 </template>
@@ -127,7 +142,25 @@ export default {
     return {
       name: "",
       email: "",
-      body: ""
+      body: "",
+            icons: [
+        {
+          href: "https://github.com/MrGrigoryAlexandrovich",
+          icon: "fab fa-github",
+        },
+        {
+          href: "https://www.linkedin.com/in/ahmed-cvr%C4%8Dak-1a68a6201/",
+          icon: "fab fa-linkedin-in",
+        },
+        {
+          href: "https://web.facebook.com/cvrcak.ahmed/",
+          icon: "fab fa-facebook-f",
+        },
+        {
+          href: "https://www.instagram.com/_mr.assertive_/",
+          icon: "fab fa-instagram",
+        },
+      ],
     };
   },
   methods: {
