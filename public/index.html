@@ -1,6 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+      (function(g, u, i, d, e, s) {
+        g[e] = g[e] || [];
+        var f = u.getElementsByTagName(i)[0];
+        var k = u.createElement(i);
+        k.async = true;
+        k.src =
+          "https://static.userguiding.com/media/user-guiding-" +
+          s +
+          "-embedded.js";
+        f.parentNode.insertBefore(k, f);
+        if (g[d]) return;
+        var ug = (g[d] = { q: [] });
+        ug.c = function(n) {
+          return function() {
+            ug.q.push([n, arguments]);
+          };
+        };
+        var m = [
+          "previewGuide",
+          "finishPreview",
+          "track",
+          "identify",
+          "triggerNps",
+          "hideChecklist",
+          "launchChecklist",
+        ];
+        for (var j = 0; j < m.length; j += 1) {
+          ug[m[j]] = ug.c(m[j]);
+        }
+      })(
+        window,
+        document,
+        "script",
+        "userGuiding",
+        "userGuidingLayer",
+        "403312471ID"
+      );
+    </script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
@@ -26,9 +65,44 @@
       type="text/javascript"
       src="//app.storyblok.com/f/storyblok-latest.js"
     ></script>
-    <script data-ad-client="ca-pub-1612608979329702" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script src="https://global.localizecdn.com/localize.js"></script>
-<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget","getSourceLanguage"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
+    <script
+      data-ad-client="ca-pub-1612608979329702"
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    ></script>
+    <script src="https://global.localizecdn.com/localize.js"></script>
+    <script>
+      !(function(a) {
+        if (!a.Localize) {
+          a.Localize = {};
+          for (
+            var e = [
+                "translate",
+                "untranslate",
+                "phrase",
+                "initialize",
+                "translatePage",
+                "setLanguage",
+                "getLanguage",
+                "detectLanguage",
+                "getAvailableLanguages",
+                "untranslatePage",
+                "bootstrap",
+                "prefetch",
+                "on",
+                "off",
+                "hideWidget",
+                "showWidget",
+                "getSourceLanguage",
+              ],
+              t = 0;
+            t < e.length;
+            t++
+          )
+            a.Localize[e[t]] = function() {};
+        }
+      })(window);
+    </script>
   </head>
   <body>
     <noscript>
